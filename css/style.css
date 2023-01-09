@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Impact', sans-serif;
+    src: url(../fonts/impact.woff2);
+}
+
 html{
     box-sizing: border-box;
 }
@@ -67,18 +72,51 @@ body{
     background-image: url(../img/header-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
+    padding-top: 100px;
 }
 
-.promo__inner {
+.promo__inner {  
     min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
+    font-family: 'Impact', sans-serif;
+    font-weight: 400;
+    font-size: 76px;
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .subtitle {
+    font-family: 'Impact', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    border-bottom: 1px solid #040404;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.subtitle span{
+    display: block;
+    font-size: 34px;
+    line-height: 34px;
+    color: #9F6B08;
+    padding: 10px 0;
 }
 
 .promo__text {
+    font-size: 16px;
+    color: #363636;
+    margin-bottom: 10px;
+}
+
+.promo__arrow{
+    margin-top: auto;
+    margin-bottom: 30px;
+    align-self: center;
 }
