@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Lamborghini</title>
@@ -208,7 +209,7 @@
                             Среди наиболее очевидных изменений в обвесе Lamborghini Huracan Super Trofeo EVO — задний спойлер на заднем капоте и верхний воздухозаборник, которые делают его мгновенно узнаваемым для зрителей.
                         </p>
                         <div class="evo-white__video">
-                            <a href="" class="evo-white__video-link">
+                            <a class="evo-white__video-link" href="https://www.youtube.com/watch?v=r0F2gPLsJU8" target="_blank">
                                 <img src="img/evo-icon.svg" alt="">
                                 <span>смотреть онлайн</span>
                             </a>
@@ -217,8 +218,31 @@
                 </div>
             </div>
         </section>
+        <section class="blog">
+            <div class="container">
+                <h3 class="blog__title">
+                    БЛОГ
+                </h3>
+                <div class="blog__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide blog__item">
+                            <img class="blog__item-img" src="img/blog-1.jpg" alt="">
+                            <h4 class="blog__item-title">НЕЛЬСОН ПИКЕ СТАЛ ПОБЕДИТЕЛЕМ ГРАНД-ФИНАЛА В ПОРТИМАНЕ</h4>
+                            <p class="blog__item-text">Нельсон Пике-младший из Ansa Motorsports обеспечил возвращение титула Lamborghini Super Trofeo Grand Finals в Северную Америку впервые с 2017 года после победы и второе место в паре 50-минутных гонок на Autodromo Nacionale do Algarve в Портимане.Между тем, титул Pro-Am был подорван, поскольку Брайан Ортис и Себастьян Карасо из ...</p>
+                        </div>
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        ...
+                      </div>
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+                </div> 
+            </div>
+        </section>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
